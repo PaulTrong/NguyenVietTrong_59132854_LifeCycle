@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("LifeCycle", "onPause called");
         Toast.makeText(getApplicationContext(),"onPause",Toast.LENGTH_SHORT).show();
     }
-    
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
